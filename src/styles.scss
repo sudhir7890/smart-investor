@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber';
+* {
+	margin: 0;
+}
+
+html, body {
+    background-color: #eceeef;
+    margin: 0px;
+    height: 100%;
+}
+.mat-card {
+  margin: 25px;
+
+  padding: 25px;}
+
+
+  /* Mostly: http://ryanfait.com/sticky-footer/ */
+
+
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+	margin-bottom: -142px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+	height: 142px;
+}
+.site-footer {
+  background: orange;
+}
+
+/* Tablet format and lower */
+@media only screen and (max-width: 1024px) {
+
+}
+
+/* Mobile format and lower */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Mobile format landscape (wide) */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+}
+
+/* Mobile format portrait (small) */
+@media only screen and (max-width: 320px) {
+
+}
